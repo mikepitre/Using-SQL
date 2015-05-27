@@ -34,7 +34,7 @@ UPDATE addresses SET city = "New York" WHERE city = "Roxanehaven";
 UPDATE addresses SET zip = "10108" WHERE zip = "34705";
 
 How much would it cost to buy one of each tool?
-467488, SELECT SUM(price) FROM items;
+7383, SELECT SUM(price) FROM items WHERE category LIKE "tools";
 
 How many total items did we sell?
 2125, SELECT SUM(quantity) FROM orders;
